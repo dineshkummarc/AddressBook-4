@@ -1,0 +1,12 @@
+﻿@model IEnumerable<AddressBook.Models.Person>
+
+<table>
+	@foreach (var person in Model)
+ {
+		<tr>
+			<td>@Html.DisplayFor(modelItem => person.FirstName)</td>
+			<td>@Html.DisplayFor(modelItem => person.LastName)</td>
+			<td>@Html.ActionLink("Details", "Details")</td>
+		</tr>
+ }
+</table>

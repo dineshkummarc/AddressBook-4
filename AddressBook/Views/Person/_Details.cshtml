@@ -1,0 +1,29 @@
+﻿@model AddressBook.Models.Person
+
+<table>
+	<tr>
+		<td class="display-label">Title:</td>
+		<td class="display-field">@Html.DisplayFor(model => model.Title)</td>
+	</tr>
+	<tr>
+		<td class="display-label">First name:</td>
+		<td class="display-field">@Html.DisplayFor(model => model.FirstName)</td>
+	</tr>
+	<tr>
+		<td class="display-label">Second name:</td>
+		<td class="display-field">@Html.DisplayFor(model => model.SecondName)</td>
+	</tr>
+	<tr>
+		<td class="display-label">Last name:</td>
+		<td class="display-field">@Html.DisplayFor(model => model.LastName)</td>
+	</tr>
+	<tr>
+		<td class="display-label">Email:</td>
+		<td class="display-field">@Html.DisplayFor(model => model.Email)</td>
+	</tr>
+</table>
+
+<p>
+	@Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+	@Html.ActionLink("Back to List", "Index")
+</p>

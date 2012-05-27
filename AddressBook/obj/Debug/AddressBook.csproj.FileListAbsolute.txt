@@ -1,0 +1,7 @@
+c:\users\patryk\documents\visual studio 2010\Projects\AddressBook\AddressBook\bin\AddressBook.dll
+c:\users\patryk\documents\visual studio 2010\Projects\AddressBook\AddressBook\bin\AddressBook.pdb
+c:\users\patryk\documents\visual studio 2010\Projects\AddressBook\AddressBook\bin\EntityFramework.dll
+c:\users\patryk\documents\visual studio 2010\Projects\AddressBook\AddressBook\bin\EntityFramework.xml
+c:\users\patryk\documents\visual studio 2010\Projects\AddressBook\AddressBook\obj\Debug\ResolveAssemblyReference.cache
+c:\users\patryk\documents\visual studio 2010\Projects\AddressBook\AddressBook\obj\Debug\AddressBook.dll
+c:\users\patryk\documents\visual studio 2010\Projects\AddressBook\AddressBook\obj\Debug\AddressBook.pdb
